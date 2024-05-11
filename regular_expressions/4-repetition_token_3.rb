@@ -1,3 +1,4 @@
 #!/usr/bin/env ruby
-puts RGV[0].scan(/hbt{0,4}n/).join
-#[hbt*n]
+puts RGV[0].scan(/hbt*n/).join
+#hbt*n
+#hbt{0,4}n
