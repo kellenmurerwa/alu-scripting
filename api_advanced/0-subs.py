@@ -29,4 +29,5 @@ def number_of_subscribers(subreddit):
     elif response.status_code == 404:
         return 0
     else:
-        return 0 
+        return 0
+
